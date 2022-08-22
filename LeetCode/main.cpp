@@ -6,9 +6,19 @@
 //
 
 #include <iostream>
+#include <map>
+#include <string>
+#include "RomanToInteger.hpp"
 
-int main(int argc, const char * argv[]) {
+using namespace std;
+
+int main() {
+    
     // insert code here...
-    std::cout << "Hello, World!\n";
+    int a = romanToInt("LVIII");
+    cout<<a<<endl;
+    
     return 0;
 }
+
+
